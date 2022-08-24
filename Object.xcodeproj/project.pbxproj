@@ -33,6 +33,7 @@
 		34498A0F28B622F800BB94BA /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		34498A1128B6231200BB94BA /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 		34498A1328B6232900BB94BA /* Audience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audience.swift; sourceTree = "<group>"; };
+		34498A1628B6237900BB94BA /* TicketOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 		341EB8E228B6138E002E6952 /* Object */ = {
 			isa = PBXGroup;
 			children = (
+				34498A1528B6237900BB94BA /* Office */,
 				341EB8EA28B613BE002E6952 /* Audience */,
 				341EB8E328B6138E002E6952 /* main.swift */,
 			);
@@ -80,6 +82,14 @@
 				341EB8EB28B613E5002E6952 /* Invitation.swift */,
 			);
 			path = Audience;
+			sourceTree = "<group>";
+		};
+		34498A1528B6237900BB94BA /* Office */ = {
+			isa = PBXGroup;
+			children = (
+				34498A1628B6237900BB94BA /* TicketOffice.swift */,
+			);
+			path = Office;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

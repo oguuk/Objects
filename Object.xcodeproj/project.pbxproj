@@ -35,6 +35,7 @@
 		34498A1328B6232900BB94BA /* Audience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audience.swift; sourceTree = "<group>"; };
 		34498A1628B6237900BB94BA /* TicketOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
 		34498A1828B6239000BB94BA /* TicketSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketSeller.swift; sourceTree = "<group>"; };
+		34498A1A28B623B800BB94BA /* Theater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 		341EB8E228B6138E002E6952 /* Object */ = {
 			isa = PBXGroup;
 			children = (
+				34498A1928B623B800BB94BA /* Theater */,
 				34498A1728B6239000BB94BA /* Worker */,
 				34498A1528B6237900BB94BA /* Office */,
 				341EB8EA28B613BE002E6952 /* Audience */,
@@ -100,6 +102,14 @@
 				34498A1828B6239000BB94BA /* TicketSeller.swift */,
 			);
 			path = Worker;
+			sourceTree = "<group>";
+		};
+		34498A1928B623B800BB94BA /* Theater */ = {
+			isa = PBXGroup;
+			children = (
+				34498A1A28B623B800BB94BA /* Theater.swift */,
+			);
+			path = Theater;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
